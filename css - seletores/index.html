@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berserk</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="gutscheguevara.jpg" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+        <h1>Berserk</h1>
+    </header>
+
+    <div id="sobre">
+        <h2>Sobre</h2>
+        <p>Berserk (ベルセルク) é uma série de mangá escrita e ilustrada por Kentaro Miura. Situado em um mundo de fantasia sombria inspirado na Europa medieval, a história gira em torno de Guts, um solitário mercenário, e Griffith, o líder de um bando de mercenários chamado de "Bando do Falcão".</p>
+    </div>
+
+    <div id="personagens">
+        <h2>Prota brabo</h2>
+        <ul>
+            <li class="personagem">Guts</li>
+        </ul>
+        <img src="guts.jpg" width="100px" alt="Guts">
+    </div>
+
+    <div id="mangas">
+        <h2>Arcos de História</h2>
+        <table class="tabela-mangas">
+            <thead>
+                <tr>
+                    <th>Título</th>
+                    <th>Capítulos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr data-volume="1">
+                    <td class="titulo-manga">O Espadachim Negro</td>
+                    <td>-16 ao -9</td>
+                </tr>
+                <tr data-volume="2">
+                    <td class="titulo-manga">Era de Ouro</td>
+                    <td>-8 ao 94</td>
+                </tr>
+                <tr data-volume="3">
+                    <td class="titulo-manga">Torra da Convicção</td>
+                    <td>95 ao 176</td>
+                </tr>
+                <tr data-volume="3">
+                    <td class="titulo-manga">Falcão Milenar</td>
+                    <td>177 ao 307</td>
+                </tr>
+                <tr data-volume="3">
+                    <td class="titulo-manga">Fantasia</td>
+                    <td>308 - em andamento</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="feedback">
+        <h2>O que achou do assunto?</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="comentario">Comentário:</label>
+            <textarea id="comentario" name="comentario" rows="4" required></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+    <hr>
+
+    <footer>
+        <p>© 2023 - JV</p>
+    </footer>
+
+</body>
+</html>

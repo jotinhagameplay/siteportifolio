@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(83, 81, 81);
+}
+
+hr {
+    border-color: black;
+}
+
+.divSticky {
+    background-color: darkcyan;
+    height: 0%;
+    top: 0%;
+    margin-top: -2%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.divSticky2 {
+    position: sticky;
+    background-color: darkcyan;
+    top: 0%;
+}
+
+#botaodownload {
+    width: 20%; 
+    height: 20%;
+}
+
+.setinhapracima {
+    margin-left: 95%;
+    width: 2%;
+}
+
+.logohome {
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+#imgs {
+    border-radius: 30px;
+}

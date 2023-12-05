@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; 
+    color: #333; 
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(to right, rgb(85, 209, 13), #0094d8); 
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    display: flex;
+    width: 100px;
+}
+
+.i1 {
+    float: right;
+}
+
+.i2 {
+    float: left;
+}
+
+nav {
+    background-color: #333; 
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+
+}
+
+div {
+    padding: 20px;
+}
+
+footer {
+    background: linear-gradient(to right, rgb(85, 209, 13), #0094d8);  
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}

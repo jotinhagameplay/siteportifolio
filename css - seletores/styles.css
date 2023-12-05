@@ -1,0 +1,71 @@
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#sobre {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+#personagens {
+    background-color: #ddd;
+    padding: 20px;
+}
+
+.personagem {
+    font-weight: bold;
+}
+
+#mangas {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.tabela-mangas {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.tabela-mangas th, .tabela-mangas td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.titulo-manga {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    
+    bottom: 0;
+    width: 100%;
+}
